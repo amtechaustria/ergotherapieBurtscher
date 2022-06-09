@@ -1,0 +1,111 @@
+body, #slider, .wrap, .slide-content {
+
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+height: 100vh;
+overflow-x: hidden;
+background-color: transparent;
+
+}
+
+.wrap {
+position: relative;
+
+}
+
+.slide{
+    background: center;
+    background:fixed;
+    background-size: 45%;
+    background-position:center;
+    background-repeat: no-repeat;
+    z-index: 10;
+
+}
+
+.slide1{background-image: url('images/IMG_1518.JPG')}
+.slide2{background-image: url('images/IMG_1520.JPG')}
+.slide3{background-image: url('images/IMG_1524.JPG')}
+.slide4{background-image: url('images/IMG_1525.JPG')}
+.slide5{background-image: url('images/IMG_1528.JPG')}
+.slide6{background-image: url('images/IMG-20201215-WA0011.jpg')}
+.slide7{background-image: url('images/IMG-20201215-WA0033.jpg')}
+.slide8{background-image: url('images/IMG_1481.JPG')}
+.slide9{background-image: url('images/IMG_1485.JPG')}
+.slide10{background-image: url('images/IMG_1487.JPG')}
+.slide11{background-image: url('images/IMG_1498.JPG')}
+.slide12{background-image: url('images/IMG_1500.JPG')}
+.slide13{background-image: url('images/IMG_1505.JPG')} 
+.slide14{background-image: url('images/IMG_1507.JPG')}
+.slide15{background-image: url('images/IMG_1508.JPG')}
+.slide16{background-image: url('images/IMG_1510.JPG')}
+.slide17{background-image: url('images/IMG_1513.JPG')}
+.slide18{background-image: url('images/IMG_1515.JPG')}
+.slide19{background-image: url('images/IMG_1516.JPG')}
+.slide20{background-image: url('images/IMG_20201216_102739.jpg')}
+.slide21{background-image: url('images/IMG_20201216_133745.jpg')}
+.slide22{background-image: url('images/IMG_1528.JPG')}
+.slide23{background-image: url('images/part2/IMG_20201218_103430.jpg')}
+.slide24{background-image: url('images/part2/IMG_20201218_103434.jpg')}
+.slide25{background-image: url('images/part2/IMG_20201218_103516.jpg')}
+.slide26{background-image: url('images/part2/IMG_20201218_103523.jpg')}
+.slide27{background-image: url('images/part2/IMG_20201218_103854.jpg')}
+.slide28{background-image: url('images/part2/IMG_20201218_103903.jpg')}
+.slide29{background-image: url('images/part2/IMG_20201218_110156.jpg')}
+.slide30{background-image: url('images/part2/IMG_20201218_110224.jpg')}
+.slide31{background-image: url('images/part2/IMG_20201218_140944.jpg')}
+.slide32{background-image: url('images/part2/IMG_20201218_140951.jpg')}
+.slide33{background-image: url('images/part2/IMG_20201218_141052.jpg')}
+.slide34{background-image: url('images/part2/IMG_20201218_141053.jpg')}
+.slide35{background-image: url('images/part2/IMG_20201218_141054.jpg')}
+.slide36{background-image: url('images/part2/IMG_20201218_141140.jpg')}
+.slide37{background-image: url('images/part2/IMG_20201218_141142.jpg')}
+.slide38{background-image: url('images/part3/mitAkkuschrauber01.JPG')}
+.slide39{background-image: url('images/part3/mitHandundFuss.jpg')}
+.slide40{background-image: url('images/part3/mithosentraeger.jpg')}
+.slide41{background-image: url('images/part3/mitPapierundSchere.jpg')}
+
+
+.slide-content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.slide-content span{
+
+    font-size: 5rem;
+    color: greenyellow
+}
+
+.arrow{
+
+    cursor: pointer;
+    position: absolute;
+    top: 50%; 
+    margin-top: -30px; 
+    width: 0;
+    height: 0; 
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #3BAB36 transparent transparent;
+    left: 0; 
+    margin-left: 30px;  
+}
+
+#arrow-right {
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent #3BAB36;
+    right: 0; 
+    margin-right: 30px;  
+}
+
+
