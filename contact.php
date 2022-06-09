@@ -46,7 +46,7 @@
         <div class="row align-items-center">
           
           <div class="col-11 col-xl-4">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">Kontakt<span class="text-primary"></span> </a></h1>
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0"><span class="text-primary"></span> </a></h1>
           </div>
           <div class="col-12 col-md-8 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -96,14 +96,14 @@
       </div>
     </div>  
 
-    <div class="site-section bg-light">
+     <div class="site-section bg-light">
       <div class="container">
         <div class="row">
           <div class="col-md-7 mb-5"  data-aos="fade">
 
             
 
-            <form action="contact.php" method="POST" class="p-5 bg-white" style="margin-top: -150px;">
+            <!-- <form action="contact.php" method="POST" class="p-5 bg-white" style="margin-top: -150px;">
              
 
               <div class="row form-group">
@@ -133,6 +133,7 @@
                 </div>
               </div>
 
+
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-black" for="message">Nachricht</label> 
@@ -144,10 +145,11 @@
                 <div class="col-md-12">
                   <input type="submit" name="abschicken" value="absenden" class="btn btn-pill btn-primary btn-md text-white">
                 </div>
-              </div>
+              </div> 
+            </form> -->
 
-  
-            </form>
+            <iframe src="kontaktformular/kontakt.php" style="border: none; width:100%; height:1500px; margin: 0 0 0 0;"></iframe>
+             
           </div>
           <div class="col-md-5"  data-aos="fade" data-aos-delay="100">
             
@@ -163,26 +165,7 @@
               <p<li><a href="datenschutzerklaerung.html">Datenschutz / Impressum</li> </p>
 
             </div>
-
-            <?php  
-
-              if(isset($_POST['abschicken']))
-
-              {
-
-                mail("info@ergotherapie-burtscher.at", "Kontaktformular", 'Vorname: '.$_POST["vorname"].' Nachname: '.$_POST["nachname"].' Email: ' .$_POST["email"].' Betreff:  '. $_POST["betreff"].' Nachricht:  '. $_POST["nachricht"]);
-                ?> 
-
-                <h1 style="color: green;">Vielen Dank! Ich habe Ihre Nachricht erhalten!</h1> 
-                <?php 
-
-
-
-              }
-             
-
-            ?>
-            
+                 
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">Wegbeschreibung</h3>
              <!--<a href="datenschutzerklaerung.html"target="_blank"><span>Datenschutzerklärung</span></a> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -202,7 +185,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     
 
     <!-- <div class="mt-5 block-cta-1 primary-overlay" style="background-image: url('images/hero_bg_2.jpg')">
